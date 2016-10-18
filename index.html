@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<script>
+	var login = prompt("Введите ваш Логин!","");
+
+		if (login == "Админ") {
+		var password = prompt("Введите Пароль","");
+			if (password == "Чёрный властелин") {
+				alert("Добро пожаловать!")}
+			else if (password == null) {
+				alert("Вход отменен");
+			}
+			else {
+				alert("Пароль неверен");
+			}
+	}
+	 else if (login == null) {
+		alert("Вход отменен");
+	} else {
+		alert("Я вас не знаю");
+	}
+</script>
+
+
+</body>
+
+</html>
